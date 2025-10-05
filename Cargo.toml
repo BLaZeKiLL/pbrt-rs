@@ -1,0 +1,11 @@
+[workspace]
+resolver = "3"
+
+members = [
+  "pbrt-rs",
+  "pbrt-rs-core",
+  "pbrt-rs-cpu",
+]
+
+[profile.dev]
+opt-level = 3
